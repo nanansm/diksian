@@ -487,31 +487,6 @@ input[type="number"]::-webkit-inner-spin-button {
 #backtotop:hover{
     background: var(--theme-color);
 }
-
-#whatsapp {
-    position: fixed;
-    right: 20px;
-    bottom: -30px;
-    width: 45px;
-    height: 45px;
-    background: #009cd9;
-    color: #fff;
-    font-size: 22px;
-    text-align: center;
-    line-height: 45px;
-    padding: 0;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 999;
-    border-radius: 2px;
-}
-#whatsapp i{
-    line-height: inherit;
-}
-#whatsapp:hover{
-    background: var(--theme-color);
-}
-
 header.fixedHeader {
     padding-top: 0;
     padding-bottom: 0;
