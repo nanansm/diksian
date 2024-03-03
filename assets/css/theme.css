@@ -2693,6 +2693,7 @@ footer .ctaMail button:hover{
     font-weight: 500;
     font-family: inherit;
     margin: 0 30px 23px;
+    text-align: left;
 }
 .iconbox03 h3 a{
     color: inherit;
@@ -4647,3 +4648,27 @@ footer .ctaMail button:hover{
     margin-top: 134px;
 }
 
+.float{
+	position:fixed;
+	right:35px;
+    bottom:50px;
+    width:45px;
+	height:45px;
+	/*background-color:#25d366;*/
+	/*color:#FFF;*/
+    text-align:center;
+    line-height: 45px;
+	border-radius:2px;
+  z-index:999;
+}
+.float i {
+    line-height: inherit;
+}
+
+.float img {
+    line-height: inherit;
+}
+
+.my-float{
+	margin-top:16px;
+}
