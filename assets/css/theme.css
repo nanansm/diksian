@@ -643,9 +643,10 @@
     list-style: none;
     display: inline-flex;
     width: 100%;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 32px;
     margin: 0 0 23px;
+    font-weight: 800;
 }
 .listItem li i{
     width: 34px;
@@ -1005,6 +1006,7 @@
 .folioItem01 img{
     width: 100%;
     height: auto;
+    padding: 0 100px 0;
 }
 .folioHover{
     position: absolute;
@@ -1050,7 +1052,7 @@
     -webkit-transition: all ease 300ms;
 }
 .folioSlider .slick-slide.slick-current.slick-active.slick-center{
-    margin-top: 30px;
+    margin-top: 0;
     margin-bottom: 0;
     transition: all ease 300ms;
     -moz-transition: all ease 300ms;
@@ -1068,7 +1070,7 @@
     width: 33.333%;
     height: 100%;
     content: '';
-    background: linear-gradient(90deg, rgba(255,248,243,1) 15px, rgba(246,226,211,0) 100%);
+    /*background: linear-gradient(90deg, rgba(255,248,243,1) 15px, rgba(246,226,211,0) 100%);*/
     transition: all ease 300ms;
     -moz-transition: all ease 300ms;
     -webkit-transition: all ease 300ms;
@@ -1081,7 +1083,7 @@
     width: 33.333%;
     height: 100%;
     content: '';
-    background: linear-gradient(-90deg, rgba(255,248,243,1) 0%, rgba(246,226,211,0) 100%);
+    /*background: linear-gradient(-90deg, rgba(255,248,243,1) 0%, rgba(246,226,211,0) 100%);*/
     transition: all ease 300ms;
     -moz-transition: all ease 300ms;
     -webkit-transition: all ease 300ms;

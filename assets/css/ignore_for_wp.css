@@ -7,7 +7,7 @@
     position: relative;
     overflow: hidden;
     background: #eaf7ff;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .aboutSection01 .subTitle{
     margin-bottom: 31px;
@@ -72,15 +72,15 @@
 }
 .folioSection01{
     position: relative;
-    padding: 125px 0 110px;
-    background: url(../images/bg/3.png) no-repeat top center #fff8f3;
+    padding: 50px 0 100px;
+    /*background: url(../images/bg/3.png) no-repeat top center #fff8f3;*/
 }
 .mt123{
-    margin-top: 123px;
+    margin-top: 10px;
 }
 .ctaTitle{
-    font-size: 28px;
-    line-height: 42px;
+    font-size: 20px;
+    line-height: 26px;
     font-weight: 500;
     margin: -9px 0 0;
 }
